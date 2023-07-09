@@ -99,6 +99,7 @@ nav a {
 }
 
 /* header part end.............................. */
+
 /* ..............main content start................ */
 main {
     max-width: 1140px;
@@ -109,11 +110,11 @@ main section {
     margin-top: 130px;
 }
 
-/* about section start */
+/*.......................... about section start......... */
 .about {
     padding: 130px;
     border-radius: 10px;
-    background: #FFF8F3;
+    background: #FFEBDC;
     margin: 130px 0;
 }
 
