@@ -22,8 +22,9 @@ body {
 .section-tittle {
     color: #181818;
     text-align: center;
-    font-size: 35px;
+    font-size: 45px;
     font-weight: 700;
+    /* letter-spacing: 40px; */
 }
 
 .section-description {
@@ -127,7 +128,7 @@ main section {
     text-align: center;
 }
 
-/* skills work start from here  */
+/* .............skills work start from here.........  */
 .skills-container {
     display: flex;
     gap: 24px;
@@ -143,37 +144,43 @@ main section {
 .skills-description {
     color: #757575;
 }
-
+/* ..................what i do section................ */
 #what-i-do-description {
     padding: 30px 150px;
 
 }
 
 /* resume work start */
-.resume-column-tittle {
-    color: #474747;
-    font-weight: 700;
-    font-size: 30px;
-}
 
 .resume-container {
     display: flex;
     gap: 50px;
 }
 
+
+.resume-column-tittle {
+    color: #474747;
+    font-weight: 700;
+    font-size: 30px;
+}
+
 .resume-container hr {
     margin: 20px;
 }
 
-.resume-item-description,
-.resume-item-institute {
-    color: #757575;
+.resume-items img{
+    position: relative;
 }
 
-.download-cv {
+/* .resume-item-description,
+.resume-item-institute {
+    color: #757575;
+} */
+
+/* .download-cv {
     text-align: center;
     margin-top: 50px;
-}
+} */
 
 /* footer work start */
 
@@ -200,4 +207,24 @@ textarea {
     border: 0;
     width: 100%;
 
+}
+
+/* work,,,,,,,,,,,,,,,,,,,, */
+.nature img{
+    width: 300px;
+    height: 400px;
+    position: relative;
+    left:100px;
+    margin:50px;
+    top:20px;
+    bottom: 5px;
+}
+.portrait img{
+    width: 300px;
+    height: 400px;
+    position: relative;
+    left:100px;
+    margin:50px;
+    top:20px;
+    bottom: 5px;
 }
