@@ -155,6 +155,7 @@ main section {
 .resume-container {
     display: flex;
     gap: 50px;
+    justify-content: space-around;
 }
 
 
@@ -172,10 +173,10 @@ main section {
     position: relative;
 }
 
-/* .resume-item-description,
-.resume-item-institute {
+ .resume-item-description {
     color: #757575;
-} */
+   
+} 
 
 /* .download-cv {
     text-align: center;
